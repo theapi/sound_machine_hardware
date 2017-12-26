@@ -1,2 +1,3 @@
-# sound_machine
-Use motion to select sounds
+# Sound Machine Hardware
+
+Hardware for https://github.com/theapi/sound_machine
