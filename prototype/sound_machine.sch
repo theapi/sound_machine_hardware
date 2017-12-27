@@ -191,70 +191,70 @@ $EndComp
 $Comp
 L Conn_01x15 J3
 U 1 1 5A3D80E6
-P 4275 2350
-F 0 "J3" H 4275 3150 50  0000 C CNN
-F 1 "Conn_01x15" H 4275 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 4275 2350 50  0001 C CNN
-F 3 "" H 4275 2350 50  0001 C CNN
-	1    4275 2350
+P 5425 2375
+F 0 "J3" H 5425 3175 50  0000 C CNN
+F 1 "Conn_01x15" H 5425 1575 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 5425 2375 50  0001 C CNN
+F 3 "" H 5425 2375 50  0001 C CNN
+	1    5425 2375
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4475 1650 2    60   Input ~ 0
+Text GLabel 5625 1675 2    60   Input ~ 0
 VIN
-Text GLabel 4475 1850 2    60   Input ~ 0
+Text GLabel 5625 1875 2    60   Input ~ 0
 RESET
-Text GLabel 4475 2050 2    60   Input ~ 0
+Text GLabel 5625 2075 2    60   Input ~ 0
 A7
-Text GLabel 4475 2150 2    60   Input ~ 0
+Text GLabel 5625 2175 2    60   Input ~ 0
 A6
-Text GLabel 4475 2450 2    60   Input ~ 0
+Text GLabel 5625 2475 2    60   Input ~ 0
 A3
-Text GLabel 4475 2550 2    60   Input ~ 0
+Text GLabel 5625 2575 2    60   Input ~ 0
 A2
-Text GLabel 4475 2650 2    60   Input ~ 0
+Text GLabel 5625 2675 2    60   Input ~ 0
 A1
-Text GLabel 4475 2750 2    60   Input ~ 0
+Text GLabel 5625 2775 2    60   Input ~ 0
 A0
-Text GLabel 4475 2850 2    60   Input ~ 0
+Text GLabel 5625 2875 2    60   Input ~ 0
 AHREF
-Text GLabel 4475 3050 2    60   Input ~ 0
+Text GLabel 5625 3075 2    60   Input ~ 0
 D13
 $Comp
 L +3.3V #PWR07
 U 1 1 5A3D8305
-P 5025 2950
-F 0 "#PWR07" H 5025 2800 50  0001 C CNN
-F 1 "+3.3V" H 5025 3090 50  0000 C CNN
-F 2 "" H 5025 2950 50  0001 C CNN
-F 3 "" H 5025 2950 50  0001 C CNN
-	1    5025 2950
+P 6175 2975
+F 0 "#PWR07" H 6175 2825 50  0001 C CNN
+F 1 "+3.3V" H 6175 3115 50  0000 C CNN
+F 2 "" H 6175 2975 50  0001 C CNN
+F 3 "" H 6175 2975 50  0001 C CNN
+	1    6175 2975
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR08
 U 1 1 5A3D8374
-P 5000 1950
-F 0 "#PWR08" H 5000 1800 50  0001 C CNN
-F 1 "+5V" H 5000 2090 50  0000 C CNN
-F 2 "" H 5000 1950 50  0001 C CNN
-F 3 "" H 5000 1950 50  0001 C CNN
-	1    5000 1950
+P 6150 1975
+F 0 "#PWR08" H 6150 1825 50  0001 C CNN
+F 1 "+5V" H 6150 2115 50  0000 C CNN
+F 2 "" H 6150 1975 50  0001 C CNN
+F 3 "" H 6150 1975 50  0001 C CNN
+	1    6150 1975
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR09
 U 1 1 5A3D83F0
-P 5200 1750
-F 0 "#PWR09" H 5200 1500 50  0001 C CNN
-F 1 "GND" H 5200 1600 50  0000 C CNN
-F 2 "" H 5200 1750 50  0001 C CNN
-F 3 "" H 5200 1750 50  0001 C CNN
-	1    5200 1750
+P 6350 1775
+F 0 "#PWR09" H 6350 1525 50  0001 C CNN
+F 1 "GND" H 6350 1625 50  0000 C CNN
+F 2 "" H 6350 1775 50  0001 C CNN
+F 3 "" H 6350 1775 50  0001 C CNN
+	1    6350 1775
 	1    0    0    -1  
 $EndComp
-Text GLabel 4475 2250 2    60   Input ~ 0
+Text GLabel 5625 2275 2    60   Input ~ 0
 SCL
-Text GLabel 4475 2350 2    60   Input ~ 0
+Text GLabel 5625 2375 2    60   Input ~ 0
 SDA
 Text GLabel 8200 2900 0    60   Input ~ 0
 D2
@@ -410,11 +410,11 @@ Wire Wire Line
 Wire Wire Line
 	2075 1975 2425 1975
 Wire Wire Line
-	5025 2950 4475 2950
+	6175 2975 5625 2975
 Wire Wire Line
-	5000 1950 4475 1950
+	6150 1975 5625 1975
 Wire Wire Line
-	4475 1750 5200 1750
+	5625 1775 6350 1775
 Wire Wire Line
 	2950 4875 3800 4875
 Wire Wire Line
@@ -445,7 +445,7 @@ U 1 1 5A3DBC45
 P 3375 2375
 F 0 "J13" H 3375 3175 50  0000 C CNN
 F 1 "Conn_01x15" H 3375 1575 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 3375 2375 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x15_Pitch2.54mm" H 3375 2375 50  0001 C CNN
 F 3 "" H 3375 2375 50  0001 C CNN
 	1    3375 2375
 	1    0    0    -1  
@@ -494,77 +494,77 @@ Wire Wire Line
 $Comp
 L Conn_01x15 J16
 U 1 1 5A3DC180
-P 5400 2350
-F 0 "J16" H 5400 3150 50  0000 C CNN
-F 1 "Conn_01x15" H 5400 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x15_Pitch2.54mm" H 5400 2350 50  0001 C CNN
-F 3 "" H 5400 2350 50  0001 C CNN
-	1    5400 2350
+P 4250 2375
+F 0 "J16" H 4250 3175 50  0000 C CNN
+F 1 "Conn_01x15" H 4250 1575 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x15_Pitch2.54mm" H 4250 2375 50  0001 C CNN
+F 3 "" H 4250 2375 50  0001 C CNN
+	1    4250 2375
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5600 1650 2    60   Input ~ 0
+Text GLabel 4450 1675 2    60   Input ~ 0
 VIN
-Text GLabel 5600 1850 2    60   Input ~ 0
+Text GLabel 4450 1875 2    60   Input ~ 0
 RESET
-Text GLabel 5600 2050 2    60   Input ~ 0
+Text GLabel 4450 2075 2    60   Input ~ 0
 A7
-Text GLabel 5600 2150 2    60   Input ~ 0
+Text GLabel 4450 2175 2    60   Input ~ 0
 A6
-Text GLabel 5600 2450 2    60   Input ~ 0
+Text GLabel 4450 2475 2    60   Input ~ 0
 A3
-Text GLabel 5600 2550 2    60   Input ~ 0
+Text GLabel 4450 2575 2    60   Input ~ 0
 A2
-Text GLabel 5600 2650 2    60   Input ~ 0
+Text GLabel 4450 2675 2    60   Input ~ 0
 A1
-Text GLabel 5600 2750 2    60   Input ~ 0
+Text GLabel 4450 2775 2    60   Input ~ 0
 A0
-Text GLabel 5600 2850 2    60   Input ~ 0
+Text GLabel 4450 2875 2    60   Input ~ 0
 AHREF
-Text GLabel 5600 3050 2    60   Input ~ 0
+Text GLabel 4450 3075 2    60   Input ~ 0
 D13
 $Comp
 L +3.3V #PWR017
 U 1 1 5A3DC190
-P 6150 2950
-F 0 "#PWR017" H 6150 2800 50  0001 C CNN
-F 1 "+3.3V" H 6150 3090 50  0000 C CNN
-F 2 "" H 6150 2950 50  0001 C CNN
-F 3 "" H 6150 2950 50  0001 C CNN
-	1    6150 2950
+P 5000 2975
+F 0 "#PWR017" H 5000 2825 50  0001 C CNN
+F 1 "+3.3V" H 5000 3115 50  0000 C CNN
+F 2 "" H 5000 2975 50  0001 C CNN
+F 3 "" H 5000 2975 50  0001 C CNN
+	1    5000 2975
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR018
 U 1 1 5A3DC196
-P 6125 1950
-F 0 "#PWR018" H 6125 1800 50  0001 C CNN
-F 1 "+5V" H 6125 2090 50  0000 C CNN
-F 2 "" H 6125 1950 50  0001 C CNN
-F 3 "" H 6125 1950 50  0001 C CNN
-	1    6125 1950
+P 4975 1975
+F 0 "#PWR018" H 4975 1825 50  0001 C CNN
+F 1 "+5V" H 4975 2115 50  0000 C CNN
+F 2 "" H 4975 1975 50  0001 C CNN
+F 3 "" H 4975 1975 50  0001 C CNN
+	1    4975 1975
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR019
 U 1 1 5A3DC19C
-P 6325 1750
-F 0 "#PWR019" H 6325 1500 50  0001 C CNN
-F 1 "GND" H 6325 1600 50  0000 C CNN
-F 2 "" H 6325 1750 50  0001 C CNN
-F 3 "" H 6325 1750 50  0001 C CNN
-	1    6325 1750
+P 5175 1775
+F 0 "#PWR019" H 5175 1525 50  0001 C CNN
+F 1 "GND" H 5175 1625 50  0000 C CNN
+F 2 "" H 5175 1775 50  0001 C CNN
+F 3 "" H 5175 1775 50  0001 C CNN
+	1    5175 1775
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 2250 2    60   Input ~ 0
+Text GLabel 4450 2275 2    60   Input ~ 0
 SCL
-Text GLabel 5600 2350 2    60   Input ~ 0
+Text GLabel 4450 2375 2    60   Input ~ 0
 SDA
 Wire Wire Line
-	6150 2950 5600 2950
+	5000 2975 4450 2975
 Wire Wire Line
-	6125 1950 5600 1950
+	4975 1975 4450 1975
 Wire Wire Line
-	5600 1750 6325 1750
+	4450 1775 5175 1775
 $Comp
 L Conn_01x08 J6
 U 1 1 5A3DDF76
@@ -608,7 +608,7 @@ U 1 1 5A3E4959
 P 9175 5200
 F 0 "J1" H 9175 5400 50  0000 C CNN
 F 1 "Conn_01x04" H 9175 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 9175 5200 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 9175 5200 50  0001 C CNN
 F 3 "" H 9175 5200 50  0001 C CNN
 	1    9175 5200
 	1    0    0    1   
@@ -665,4 +665,37 @@ Text Label 2550 4475 0    60   ~ 0
 DAC_R
 Text Label 2550 4575 0    60   ~ 0
 DAC_L
+$Comp
+L CP C1
+U 1 1 5A43926F
+P 8250 4450
+F 0 "C1" H 8275 4550 50  0000 L CNN
+F 1 "10uf" H 8275 4350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8288 4300 50  0001 C CNN
+F 3 "" H 8250 4450 50  0001 C CNN
+	1    8250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5A43932F
+P 8250 4600
+F 0 "#PWR022" H 8250 4350 50  0001 C CNN
+F 1 "GND" H 8250 4450 50  0000 C CNN
+F 2 "" H 8250 4600 50  0001 C CNN
+F 3 "" H 8250 4600 50  0001 C CNN
+	1    8250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR023
+U 1 1 5A439399
+P 8250 4300
+F 0 "#PWR023" H 8250 4150 50  0001 C CNN
+F 1 "+5V" H 8250 4440 50  0000 C CNN
+F 2 "" H 8250 4300 50  0001 C CNN
+F 3 "" H 8250 4300 50  0001 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
